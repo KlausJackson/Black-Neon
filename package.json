@@ -1,0 +1,25 @@
+{
+	"name": "black-neon-theme",
+	"displayName": "Black Neon Theme",
+	"version": "0.0.1",
+	"publisher": "KlausJackson",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KlausJackson/Black-Neon"
+	},
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Black Neon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/black-neon.json"
+			}
+		]
+	}
+}
